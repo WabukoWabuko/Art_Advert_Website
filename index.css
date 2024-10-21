@@ -41,3 +41,19 @@
 }
 
 /* End of Upcoming Events */
+
+/* Recent Art Uploads */
+body {
+    background-color: #f8f9fa;
+}
+
+.art-card {
+    margin-bottom: 20px;
+}
+
+.art-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* End of Recent Art Uploads */

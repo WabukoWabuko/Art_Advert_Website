@@ -57,3 +57,48 @@ body {
 }
 
 /* End of Recent Art Uploads */
+
+/* Artist Spotlight  */
+body {
+    background-color: #f0f4f8;
+}
+
+.artist-card {
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+}
+
+.artist-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.artist-image {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* End of Artist Spotlight  */
+
+/* Community Section  */
+.carousel-item {
+    height: 400px; /* Adjust height as needed */
+}
+
+.carousel-item .card {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+}
+
+.reaction-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+/* End of Community Section  */

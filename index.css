@@ -7,3 +7,37 @@
     object-fit: cover;
     filter: brightness(0.6);
 }
+
+/* Section for Upcoming Events */
+.upcoming-events h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #2c3e50;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card .col-4 {
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    color: #34495e;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* End of Upcoming Events */

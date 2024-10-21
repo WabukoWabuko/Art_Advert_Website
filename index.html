@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grafitti</title>
@@ -27,15 +29,14 @@
                     <a class="nav-link" href="#">Contact</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Gallery
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Gallery</a></li>
-                      <li><a class="dropdown-item" href="#">Artists</a></li>
-                      <li><hr class="dropdown-divider">Events</li>
-                      <li><a class="dropdown-item" href="#">Shop</a></li>
-                    </ul>
+                    <ul class="dropdown-menu">Gallery</button></li>
+                        <li><button class="dropdown-item" type="button">Assets</button></li>
+                        <li><button class="dropdown-item" type="button">Events</button></li>
+                        <li><button class="dropdown-item" type="button">Shops</button></li>
+                      </ul>
                   </li>
                   <li class="nav-item px-5">
                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -52,16 +53,16 @@
       <!-- End of Navigation Bar -->
 
       <!-- Carousel - Images sliding -->
-      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item active c-item">
+            <img src="assets/images/1.jpg" class="d-block w-100 c-img" alt="Slide 1">
           </div>
-          <div class="carousel-item">
-            <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item c-item">
+            <img src="assets/images/2.jpg" class="d-block w-100 c-img" alt="Slide 2">
           </div>
-          <div class="carousel-item">
-            <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item c-item">
+            <img src="assets/images/3.jpg" class="d-block w-100 c-img" alt="Slide 3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="Previous">
@@ -75,7 +76,7 @@
       </div>
        <!-- End of carousel  -->
        
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/js/bootstrap.bundle.min.js">
 </body>
 </html>

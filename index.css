@@ -121,3 +121,44 @@ h1 {
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 /* End of Social MEdia Links  */
+
+/* Footer  */
+footer {
+    padding-top: 40px;
+    background-color: #222; /* Darker background for a graffiti vibe */
+    color: #fff; /* Light text color */
+}
+
+footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #f39c12; /* Vibrant color for headings */
+}
+
+footer a {
+    color: #bdbdbd; /* Subtle link color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: #f39c12; /* Same vibrant color on hover */
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icons i {
+    font-size: 24px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+footer .social-icons i:hover {
+    transform: scale(1.2);
+    color: #f39c12; /* Icon color change on hover */
+}
+
+/* End of Footer  */
